@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     homepage = "<h1>向育學網頁</h1>"
-    homepage += "<a href=/mis>MIS</a><br>"
+    homepage += "<a href=/mis>科目</a><br>"
     homepage += "<a href=/today>顯示日期時間</a><br>"
     homepage += "<a href=/welcome>傳送使用者暱稱</a><br>"
     homepage += "<a href=/about>個人簡介網頁</a><br>"
